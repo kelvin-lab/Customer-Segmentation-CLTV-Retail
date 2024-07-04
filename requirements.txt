@@ -1,0 +1,11 @@
+# Bibliotecas para análisis de datos
+pandas
+numpy
+
+# Bibliotecas para visualización de datos
+matplotlib
+seaborn
+
+# Bibliotecas para machine learning
+scikit-learn
+
