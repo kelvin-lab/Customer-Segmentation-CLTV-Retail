@@ -148,7 +148,7 @@ Esta sección detalla los riesgos a considerarse durante el desarrollo del proye
 | TripleTen Community            | Supervisor                        | Gestión de proyectos          |
 | Kelvin Stiven Trujillo Ruales  | Scrum master / Desarrollador      | Gestión de proyectos / Equipo de Data Scientist |
 | Cristhopher Jesus Castro Moncada | Desarrollador                   | Equipo de Data Analyst        |
-| Gonzalo                        | Desarrollador                     | Equipo de Data Analyst        |
+| Gonzalo Andres Muñoz Nuñez                        | Desarrollador                     | Equipo de Data Analyst        |
 | Rosa Isela Gonzalez            | Desarrollador                     | Equipo de Data Scientist      |
 | Karina Ordoñez Gonzalez        | Desarrollador                     | Equipo de Data Scientist      |
 | Aracely Cruz Del Ángel         | Desarrollador                     | Equipo de desarrollo          |
@@ -158,12 +158,12 @@ Esta sección detalla los riesgos a considerarse durante el desarrollo del proye
 
 | Nombre                         | Roles                             | Tareas                         | Departamento/División          |
 |--------------------------------|-----------------------------------|-------------------------------|-------------------------------|
-| Kelvin Stiven Trujillo Ruales  | Scrum Master y Data Scientist Developer | Decisiones de personal (Staffing). Decisiones técnicas. Resolución de conflictos. | Administración y Desarrollo |
-| Cristhopher Jesus Castro Moncada | Desarrollador                   |                               | Equipo de Data Analyst        |
-| Carlos Edoardo Vergara Saracho | Desarrollador                     |                               | Equipo de Data Analyst        |
-| Rosa Isela Gonzalez            | Desarrollador                     |                               | Equipo de Data Scientist      |
-| Karina Ordoñez Gonzalez        | Desarrollador                     |                               | Equipo de Data Scientist      |
-| Aracely Cruz Del Ángel         | Desarrollador                     |                               | Equipo de desarrollo          |
+| Kelvin Stiven Trujillo Ruales  | Scrum Master y Data science developer | Staffing. Decisiones técnicas. Resolución de conflictos. Refactorización. Calculos del Customer Lifetime Value  (CLTV) | Administración y Equipo de Data Scientist |
+| Cristhopher Jesus Castro Moncada | Data analyst developer                   |                               | Equipo de Data Analyst        |
+| Gonzalo Andres Muñoz Nuñez | Data analyst developer                     |                               | Equipo de Data Analyst        |
+| Rosa Isela Gonzalez            | Data science developer                     |                               | Equipo de Data Scientist      |
+| Karina Ordoñez Gonzalez        | Data science developer                     |                               | Equipo de Data Scientist      |
+| Aracely Cruz Del Ángel         | Web Developer                     |                               | Equipo de desarrollo          |
 
 ### Requisitos para la aprobación del proyecto
 Para la aprobación del proyecto, se cumplirán los siguientes puntos:
