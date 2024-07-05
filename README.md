@@ -97,8 +97,9 @@ El desarrollo del proyecto se lleva a cabo en iteraciones, siguiendo las prácti
 1. **Dataset analysis:** Análisis y limpieza de datos.
 2. **Estadística descriptiva y AED:** Análisis exploratorio de datos para identificar tendencias y patrones.
 3. **Segmentación:** Agrupamiento de datos en segmentos significativos.
-4. **Predicción:** Uso de modelos predictivos para anticipar comportamientos futuros.
-5. **Clustering:** Agrupación de datos en clusters utilizando algoritmos de machine learning.
+4. **Clustering:** Agrupación de datos en clusters utilizando algoritmos de machine learning.
+5. **Predicción:** Uso de modelos predictivos para anticipar comportamientos futuros, especificamente el abandono del cliente.
+
 
 #### Implementación
 
