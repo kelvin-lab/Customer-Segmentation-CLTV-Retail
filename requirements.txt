@@ -5,7 +5,13 @@ numpy
 # Bibliotecas para visualización de datos
 matplotlib
 seaborn
+plotly.express
 
 # Bibliotecas para machine learning
 scikit-learn
+xgboost
+lightgbm
+XGBClassifier
+LGBMClassifier
+imblearn.over_sampling
 
