@@ -30,8 +30,9 @@
 | Fecha      | Versión | Autor                             | Organización | Descripción                                              |
 |------------|---------|-----------------------------------|--------------|----------------------------------------------------------|
 | 01/07/2024 | v.0.0   | Miembros del equipo de “Team 67”  | Team 67      | Creación de la documentación, se designan roles y tareas.|
-| 02/07/2024 | v.0.1   | Miembros del equipo de “Team 67”  | Team 67      | Acceso, estudio, transformación y limpieza de datos.     |
-|            |         |                                   |              |                                                          |
+| 02/07/2024 | v.0.1   | Miembros del equipo de “Team 67”  | Team 67      | Dcocumentación de la fase de diseño     |
+| 03/07/2024 | v.0.2 | Miembros del equipo de “Team 67” | Team 67 | Dcocumentación de la fase de desarrollo |
+| 04/07/2024 | v.0.2 | Miembros del equipo de “Team 67” | Team 67 | Dcocumentación de la fase de seguimiento y control |
 
 ### Información del Proyecto
 
@@ -231,5 +232,3 @@ Despliegue del sistema en un entorno de producción.
 ### Licencia
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
 
-### Demostración
-Puedes acceder a la aplicación en vivo aquí: [link]
