@@ -159,7 +159,7 @@ Esta sección detalla los riesgos a considerarse durante el desarrollo del proye
 
 | Nombre                         | Roles                             | Tareas                         | Departamento/División          |
 |--------------------------------|-----------------------------------|-------------------------------|-------------------------------|
-| Kelvin Stiven Trujillo Ruales  | Scrum Master y Data science developer | Staffing. Decisiones técnicas. Resolución de conflictos. Refactorización. Calculos del Customer Lifetime Value  (CLTV) | Administración y Equipo de Data Scientist |
+| Kelvin Stiven Trujillo Ruales  | Scrum Master y Data science developer | Staffing, Decisiones técnicas, Resolución de conflictos, Refactorización y Desarrollo del Customer Lifetime Value  (CLTV). | Administración y Equipo de Data Scientist |
 | Cristhopher Jesus Castro Moncada | Data analyst developer                   |                               | Equipo de Data Analyst        |
 | Gonzalo Andres Muñoz Nuñez | Data analyst developer                     |                               | Equipo de Data Analyst        |
 | Rosa Isela Gonzalez Diaz | Data science developer | Estadistica descriptiva,1a Fase de  Segmentacion de Clientes, Desarrollo de Modelos de Machine Learning                          | Equipo de Data Scientist      |
