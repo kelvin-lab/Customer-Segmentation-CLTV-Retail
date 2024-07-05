@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -23,11 +23,13 @@ export default function Navbar() {
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><Link to="/RFMAnalysis">Aplicación del método RFM</Link></li>
+            <li><Link to="/Exploratory">Analis exploratorio de datos</Link></li>
+             <li><Link to="/RFMAnalysis">Aplicación del método RFM</Link></li>
+             <li><Link to="/Modelo">Modelo Predictivo</Link></li>
             <li><Link to="/Dictionary">Data Dictionary</Link></li>
+            <li><Link to= "/Insights">Insights</Link></li>
+
             <li><Link to="/Strategies">Recommended Strategies</Link></li>
-
-
             {/* Añade más enlaces según tus necesidades */}
           </ul>
         </div>
