@@ -232,3 +232,24 @@ Despliegue del sistema en un entorno de producción.
 ### Licencia
 Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
 
+### Interpretacion del Modelo
+Se realizó un ejercicio con los datos limpios sin incluir las variables RFM y CLVT ya que se pensaba que estaban causando un sobreajuste en el modelo. Sin embargo, después de este ejercicio se observó que esto no era así. Las métricas resultantes fueron todas cercanas a 1 excepto la precisión que fue de 0.99.
+
+Además, se llevó a cabo modelado con XGBoost y LightGBM, descubriendo que los tres modelos basados en árboles de decisión tenían un comportamiento similar. En ambos ejercicios se utilizó la técnica de balanceo SMOTE y validación cruzada. Estos modelos demostraron tener una alta precisión y un excelente poder predictivo. Las métricas de evaluación fueron consistentemente altas tanto en los datos de entrenamiento como en los de validación/prueba, indicando que los modelos habían capturado correctamente los patrones subyacentes de los datos y podían hacer predicciones precisas en datos no vistos.
+
+En un segundo ejercicio, donde se incluyeron las variables obtenidas después de realizar RFM y CLTV, también se observó que los modelos basados en árboles de decisión mostraron el mismo comportamiento que cuando estas variables no fueron incluidas. Además, se probaron los modelos Logistic Regression y KNeighborsClassifier.
+
+Modelo	AUC-ROC	Exactitud	f1	Precision	Recall
+Logistic Regression	0.971657	0.944286	0.380952	0.235294	1.000000
+KNeighborsClassifier	0.666667	0.988571	0.500000	1.000000	0.333333
+RandomForestClassifier	1.0	1.0	1.0	1.0	1.0
+Interpretación General
+Modelos de Árbol
+Estos modelos demostraron tener una alta precisión y un excelente poder predictivo. Las métricas de evaluación fueron consistentemente altas tanto en los datos de entrenamiento como en los de validación/prueba, indicando que los modelos habían capturado correctamente los patrones subyacentes de los datos y podían hacer predicciones precisas en datos no vistos.
+
+Modelo Logistic Regression (lgr)
+A pesar de tener un AUC-ROC y una exactitud muy alta, el modelo tiene una precisión muy baja y un F1-score bajo debido a que predice muchas falsas positivas. Esto puede ser problemático en situaciones donde las falsas alarmas son costosas o indeseables.
+
+Modelo K-Nearest Neighbors (knn)
+Este modelo tiene una precisión perfecta pero un recall bajo, lo que significa que aunque predice correctamente las instancias positivas, no identifica todas las instancias positivas presentes en el conjunto de datos. La alta exactitud puede ser engañosa si la clase positiva es minoritaria.
+
