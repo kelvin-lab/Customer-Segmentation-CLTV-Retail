@@ -150,7 +150,7 @@ Esta sección detalla los riesgos a considerarse durante el desarrollo del proye
 | Kelvin Stiven Trujillo Ruales  | Scrum master / Desarrollador      | Gestión de proyectos / Equipo de Data Scientist |
 | Cristhopher Jesus Castro Moncada | Desarrollador                   | Equipo de Data Analyst        |
 | Gonzalo Andres Muñoz Nuñez                        | Desarrollador                     | Equipo de Data Analyst        |
-| Rosa Isela Gonzalez            | Desarrollador                     | Equipo de Data Scientist      |
+| Rosa Isela Gonzalez Diaz          | Desarrollador                     | Equipo de Data Scientist      |
 | Karina Ordoñez Gonzalez        | Desarrollador                     | Equipo de Data Scientist      |
 | Aracely Cruz Del Ángel         | Desarrollador                     | Equipo de desarrollo          |
 | Design Reels                   | Cliente                           | No se aplica ningún cargo     |
@@ -162,7 +162,7 @@ Esta sección detalla los riesgos a considerarse durante el desarrollo del proye
 | Kelvin Stiven Trujillo Ruales  | Scrum Master y Data science developer | Staffing. Decisiones técnicas. Resolución de conflictos. Refactorización. Calculos del Customer Lifetime Value  (CLTV) | Administración y Equipo de Data Scientist |
 | Cristhopher Jesus Castro Moncada | Data analyst developer                   |                               | Equipo de Data Analyst        |
 | Gonzalo Andres Muñoz Nuñez | Data analyst developer                     |                               | Equipo de Data Analyst        |
-| Rosa Isela Gonzalez            | Data science developer                     |                               | Equipo de Data Scientist      |
+| Rosa Isela Gonzalez Diaz | Data science developer | Estadistica descriptiva,1a Fase de  Segmentacion de Clientes, Desarrollo de Modelos de Machine Learning                          | Equipo de Data Scientist      |
 | Karina Ordoñez Gonzalez        | Data science developer                     |                               | Equipo de Data Scientist      |
 | Aracely Cruz Del Ángel         | Web Developer                     |                               | Equipo de desarrollo          |
 
