@@ -4,27 +4,31 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import RFMAnalysis from './components/RFMAnalysis';
 import StoryTelling from './components/StoryTelling';
+import Exploratory from './components/Exploratory';
 import DataDictionary from './components/DataDictionary';
 import StrategyMenu from './components/StrategyMenu';
-import data from './data/data.json';
+import Insights from './components/Insights';
+import Modelo from './components/Modelo';
+
+
 
 function App() {
 
  
-  const [error, setError] = useState(null);
-  console.log(data);
- 
+  //console.log(data.customer_id, data.Recency);
 
   return (
     <Router>
       <div className="App">
         <Navbar />
         <Routes>
+        <Route path="/" element={<StoryTelling />} />
+          <Route path="/Exploratory" element={<Exploratory />} />
           <Route path="/RFMAnalysis" exact element={<RFMAnalysis/>} />
-          <Route path="/" element={<StoryTelling />} />
+          <Route path="/Modelo" element={<Modelo/>} />
+          <Route path="/Insights" element={<Insights />} />
           <Route path="/Dictionary" element={< DataDictionary/>} />
           <Route path="/Strategies" element={< StrategyMenu/>} />
-
 
           {/* Agrega más rutas según tus necesidades */}
         </Routes>
@@ -37,21 +41,7 @@ function App() {
 export default App;
 
 
-  /*<div className="drawer">
-  <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-  <div className="drawer-content flex flex-col">
-    <IntroSection />
-    <StoryTelling />  
-    <Footer />
-  </div>
-  
-</div>*/
 
-
-
-/*    <h1>Chart.js con React JS</h1>
- <Bar data={data} options={options} />
-  */
 
 
 

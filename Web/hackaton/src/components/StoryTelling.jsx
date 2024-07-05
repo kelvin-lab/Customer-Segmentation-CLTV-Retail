@@ -1,11 +1,13 @@
 import React from 'react'
 import IntroSection from './IntroSection'
+import { Link } from 'react-router-dom'
+
 
 export default function StoryTelling() {
   return (    
   <>
   <IntroSection />
-  <div className='w-full  flex gap-3 justify-around p-5'>
+  <div className='w-full  flex flex-wrap gap-3 justify-around p-5'>
   <div className="card bg-base-100 w-96 shadow-xl">
     <figure>
       <img
@@ -48,31 +50,45 @@ export default function StoryTelling() {
     <li>Fortalecer la conexión emocional con la marca</li>
     <li>Aumentar la retención de clientes a largo plazo ❤️</li>
   </ul>
+ </div>
+ </div>
   
+ <div className="card bg-base-100 w-96 shadow-xl mb-5">
+  <figure>
+    <img
+      src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="engagement" />
+  </figure>
+  <div className="card-body">
+    <h2 className="text-lg font-bold">🔍 Análisis de Interacción</h2>
+    <p>A lo largo de este análisis, exploraremos:</p>
+    <ul className="list-disc list-inside ml-4">
+      <li>Cómo diferentes segmentos de clientes interactúan con nuestros productos</li>
+      <li>Qué atributos compartidos tienen</li>
+      <li>Cómo podemos adaptar nuestras iniciativas de negocio para satisfacer mejor sus expectativas</li>
+    </ul>
   </div>
 </div>
-  
+
+<div className="card bg-base-100 w-96 shadow-xl mb-5">
+  <figure>
+    <img
+      src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="engagement" />
+  </figure>
+  <div className="card-body">
+    <h2 className="text-lg font-bold">🚀 Estrategias para el Crecimiento</h2>
+    <p>Este enfoque estratégico no solo impulsará el crecimiento y la rentabilidad de DesignReels, sino que también nos permitirá destacar en un mercado saturado al ofrecer soluciones que verdaderamente resuenen con nuestros clientes.</p>
   </div>
+</div> 
+</div>
+
   
 
 
 
 
-{/*<div className="mb-5 w-1/2">
-  <h2 className="text-lg font-bold">🔍 Análisis de Interacción</h2>
-  <p>A lo largo de este análisis, exploraremos:</p>
-  <ul className="list-disc list-inside ml-4">
-    <li>Cómo diferentes segmentos de clientes interactúan con nuestros productos</li>
-    <li>Qué atributos compartidos tienen</li>
-    <li>Cómo podemos adaptar nuestras iniciativas de negocio para satisfacer mejor sus expectativas</li>
-  </ul>
-</div>
-<div className="mb-5 w-1/2">
-  <h2 className="text-lg font-bold">🚀 Estrategias para el Crecimiento</h2>
-  <p>Este enfoque estratégico no solo impulsará el crecimiento y la rentabilidad de DesignReels, sino que también nos permitirá destacar en un mercado saturado al ofrecer soluciones que verdaderamente resuenen con nuestros clientes.</p>
-</div>
 
-*/}
 
 
 <div class="bg-white">
@@ -91,8 +107,7 @@ export default function StoryTelling() {
         <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl"> Ofrece a tus clientes experiencias personalizadas y maximiza su satisfacción</h2>
         <p class="mt-6 text-lg leading-8 text-gray-300">En el competitivo mundo del comercio electrónico, entender a nuestros clientes es esencial para ofrecer experiencias personalizadas y maximizar su satisfacción y lealtad</p>
         <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-          <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Ver Análisis</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+        <Link to="/Exploratory" className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Ver Análisis</Link>
         </div>
       </div>
       <div class="relative mt-16 h-80 lg:mt-8 p-4">
